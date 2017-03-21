@@ -7,7 +7,7 @@ include 'cfg.php' ;
 
 mkdir($TMP_PATH);
 $myfile = fopen($TMP_PATH."chatid".$room, "r");
-$phpcl = def(fread($myfile, 1), 1) % 5;
+$phpcl = def(fread($myfile, 1), 1) % 7;
 $myfile = fopen($TMP_PATH."chatid".$room, "w");
 fwrite($myfile, $phpcl + 1);
 ?>
@@ -60,7 +60,7 @@ function report(data) {
 
 function newColour()
 {
-  cl = (cl+1)%5;
+  cl = (cl+1)%7;
   document.getElementById('area').setAttribute('class', 'm c' + cl);
   report(name + " changed his colour");
 }
@@ -155,10 +155,12 @@ body{
   font-family: initial;
 }
 .c0{background-color: #FFEEEE;}
-.c1{background-color: #EEFFEE;}
-.c2{background-color: #FFFFEE;}
-.c3{background-color: #FFEEEE;}
-.c4{background-color: #EEEEFF;}
+.c1{background-color: #FFFFEE;}
+.c2{background-color: #EEFFEE;}
+.c3{background-color: #EEEEFF;}
+.c4{background-color: #FFEEFF;}
+.c5{background-color: #EEFFFF;}
+.c6{background-color: #EEEEEE;}
 .m{ 
     border-style: solid;
     border-width: 1px;
