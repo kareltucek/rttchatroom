@@ -122,7 +122,7 @@ function process(text) {
   {
     identity = 1;
     //document.getElementById('connecting').outerHTML='';
-    handshakeId = report(name +" joined");
+    handshakeId = report(name +" has joined the room");
   }
 }
 
@@ -144,7 +144,7 @@ function updateMonospace() {
 }
 
 function exitChat() {
-  report(name +" has left the channel");
+  report(name +" has left the room");
 }
   </script>
   <style>
