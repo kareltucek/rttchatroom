@@ -22,3 +22,7 @@ There are three important files:
 - stream.php - provides stream of changes from the room history file.
 - postmsg.php - accepts message updates and appends them into the history file.
 
+Example
+=======
+A running instance may be found at http://ktweb.cz/chat. (No guarantees provided!)
+
