@@ -155,11 +155,11 @@ body{
   font-family: initial;
 }
 .c0{background-color: #FFEEEE;}
-.c1{background-color: #FFFFEE;}
+.c1{background-color: #FFFFDD;}
 .c2{background-color: #EEFFEE;}
 .c3{background-color: #EEEEFF;}
-.c4{background-color: #FFEEFF;}
-.c5{background-color: #EEFFFF;}
+.c4{background-color: #FFDDFF;}
+.c5{background-color: #DDFFFF;}
 .c6{background-color: #EEEEEE;}
 .m{ 
     border-style: solid;
