@@ -149,6 +149,7 @@ function exitChat() {
   </script>
   <style>
 body{
+  height:100%;
   overflow:hidden;
   display: flex;
   flex-direction: column;
