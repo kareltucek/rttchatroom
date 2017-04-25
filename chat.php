@@ -176,7 +176,7 @@ body{
 #history {max-height:80%; width:100%; overflow:auto; flex-grow: 80;}
 #msgbox { width: 100%; flex-grow:20; display:flex; flex-direction:column;}
 #area{width:100%; max-height:100%; flex-grow:100;}
-#controls {display:flex; flex-direction: row;}
+#controls {display:flex; flex-direction: row; min-height: 2rem;}
 p {padding:0px; margin:0px;}
   </style>
 </head>
@@ -193,8 +193,10 @@ monospace font: <input type='checkbox' id='monospace' onclick='updateMonospace()
 if($REALTIME){echo "realtime: <input type='checkbox' id='realtime' checked onclick='updateAttributes();'> ";}
 ?>
 send by enter: <input type='checkbox' id='byenter' checked onclick='updateAttributes();'> 
+<span>
 <input type='submit'  onclick="ping(); " value='ping others'>
 <input type='submit'  onclick="newColour();" value='new colour'>
+</span>
 <span style='flex-grow: 100;'>
 <input type='submit' class='r' onclick="submitHandler(null); initId(); " value='send'>
 </div>
