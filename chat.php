@@ -190,7 +190,7 @@ p {padding:0px; margin:0px;}
 <div id='controls'>
 monospace font: <input type='checkbox' id='monospace' onclick='updateMonospace();'> 
 <?php
-if($REALTIME){echo "realtime: <input type='checkbox' id='realtime' checked onclick='updateAttributes();'> ";}
+if($REALTIME){echo "characters/words: <input type='checkbox' id='realtime' checked onclick='updateAttributes();'> ";}
 ?>
 send by enter: <input type='checkbox' id='byenter' checked onclick='updateAttributes();'> 
 <span>
