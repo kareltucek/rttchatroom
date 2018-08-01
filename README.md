@@ -24,5 +24,5 @@ There are three important files:
 
 Example
 =======
-A running instance may be found at http://ktweb.cz/chat. (No guarantees provided!)
+A running instance may no longer be found anywhere.
 
